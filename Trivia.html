@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="TriviaQuiz.js"></script>
+<style>
+body {
+    background-color: red;
+}
+</style>
+</head>   
+<body>
+  <h2 class="quizHeader">Arsenal Quiz</h2>
+  
+	<table style="width:580px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. Let's start off with something easy. Who is Arsenal's current Top Scorer across all competitions?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Alexis Sanchez</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Olivier Giroud</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Mesut Ozil</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Petr Cech</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2. Let's make it slightly harder. When was Arsenal FC founded?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>1889</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">1886</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>1908</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>1932</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. Good job so far! What is the stadium that was refurbished for the purpose of using it as a museum?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Emirates Stadium</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">Highbury</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Wembley Stadium</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Millenium Stadium</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4. Time for a hard question. Why did Samir Nasri choose to move to Manchester City?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Fame</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Money</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Playing time</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Just for fun</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+        <tr>
+	  <td>
+	  	<div>
+	  		<p class="question">5. Ok. What is Arsenal's best finish in the UEFA Champions League?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString5">Final</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Champions</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Quarter Final</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Group Stage</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">6. Time for an easy question. What is Arsenal's slogan?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>We the North</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString6">Victoria Concordia Crescent</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>London rules</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>In the Lane</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">7. Almost there! Who has scored the most all-time goals for Arsenal?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Alexis Sanchez</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString7">Thierry Henry</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Dennis Bergkamp</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Patrice Vieira</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">8. So close! Who is the head coach?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Antonio Conte</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString8">Arsene Wenger</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Thomas Tuchel</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Steve Bould</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+        <tr>
+	  <td>
+	  	<div>
+	  		<p class="question">9. Almost done! What is Arsenal's transfer budget?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString9">$200 million</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>$100 million</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>$29 million</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>$399 million</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">10. Last question. What is the team's new formation?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>4-2-3-1</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString10">3-4-3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>4-4-2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>5-3-2</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	<div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+	<div class="quizAnswers" id="correctAnswer5"></div>
+    <div class="quizAnswers" id="correctAnswer6"></div>
+    <div class="quizAnswers" id="correctAnswer7"></div>
+	<div class="quizAnswers" id="correctAnswer8"></div>
+    <div class="quizAnswers" id="correctAnswer9"></div>
+    <div class="quizAnswers" id="correctAnswer10"></div>
+
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+
+</body>
+</html>
